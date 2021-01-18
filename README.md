@@ -16,10 +16,8 @@
   You have my permission to clone this repository. Run `git clone git@github.com:KevinB04/note-taker.git`
 
   ## Usage
-  1. Open up your terminal and verify that you are in the correct path.
-  2. Run `npm start` and you will see a list of prompts.
-  3. After you answer all of the prompts, an "Output" folder will be created on your left. Click that folder and open `team.html`. Follow that html page in to your browser and you will have your personalized team profile ready for you.
-  ![team-profile](/assets/images/team-profile.jpg)
+  
+  
   
   ## Credits
   * [Shields.io](https://shields.io/)
