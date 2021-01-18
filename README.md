@@ -6,29 +6,24 @@
    - [Description](#description)
    - [Installation](#installation)
    - [Usage](#usage)
-   - [Contributing](#contributing)
    - [Credits](#credits)
    - [License](#license)
 
   ## Description
-  This project prompts the user to build an engineering team. The user can choose between "Manager", "Engineer", and "Intern" in order to build a profile for their employees.
+  This project gives the user the ability to write and save notes. This will be a great way for you to organize your thoughts and stay caught up with upcoming tasks!
 
   ## Installation
-  You may fork the repo from my GitHub. I recommend installing [Node.js](https://nodejs.org/en/) so that you have the ability to successfully run this project in your Visual Studio Code.
+  You have my permission to clone this repository. Run `git clone git@github.com:KevinB04/note-taker.git`
 
   ## Usage
   1. Open up your terminal and verify that you are in the correct path.
   2. Run `npm start` and you will see a list of prompts.
   3. After you answer all of the prompts, an "Output" folder will be created on your left. Click that folder and open `team.html`. Follow that html page in to your browser and you will have your personalized team profile ready for you.
   ![team-profile](/assets/images/team-profile.jpg)
-
-  ## Contributing
-  Not accepting any contributions at this time.
   
   ## Credits
   * [Shields.io](https://shields.io/)
   * [Node.js](https://nodejs.org/en/)
-  * [Inquirer.js](https://www.npmjs.com/package/inquirer)
 
   ## License
   [MIT](https://choosealicense.com/licenses/mit/)
