@@ -17,7 +17,7 @@
 
   ## Usage
   
-  ![note-taker](/assets/images/note-taker.jpg)
+  ![note-taker](/assets/images/team-profile.jpg)
   
   ## Credits
   * [Shields.io](https://shields.io/)
