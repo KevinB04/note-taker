@@ -22,6 +22,7 @@
   ## Credits
   * [Shields.io](https://shields.io/)
   * [Node.js](https://nodejs.org/en/)
+  * [Heroku](https://dashboard.heroku.com/apps)
 
   ## License
   [MIT](https://choosealicense.com/licenses/mit/)
