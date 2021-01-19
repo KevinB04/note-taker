@@ -1,22 +1,24 @@
 const path = require("path");
 const fs = require("fs");
+const router = require("express").Router();
+const Notes = require("../db/Notes.js")
 
-app.get('/notes', function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/notes.html"));
-  });
-
-app.get(`*`, function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/index.html"));
+router.get(`/notes`, function (req, res) {
+  Notes.getNotes().then(notesArray => res.json(notesArray)).catch(err => res.status(500).json(err))
 });
 
-app.get(`/api/notes`, function (req, res) {
 
-})
 
-app.post(`/api/notes`, function (req, res) {
+router.post("/notes", function (req, res) {
 
-})
+    Notes.addNote(req.body).then(note => res.json(note)).catch(err => res.status(500).json(err))
 
-app.delete(`/api/notes/:id`, function (req, res) {
+});
 
-})
+
+
+router.delete(`/notes/:id`, function (req, res) {
+    Notes.removeNote(req.params.id).then(() => res.json({ ok: true}) ).catch(err => res.status(500).json(err))
+});
+
+module.exports = router;

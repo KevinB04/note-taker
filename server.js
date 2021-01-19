@@ -1,12 +1,16 @@
-const path = require("path");
-const fs = require("fs");
-var express = require("express");
 
-const render = require("./public/assets/index.html");
+var express = require("express");
+const apiRoutes = require("./routes/apiRoutes.js")
+const htmlRoutes = require("./routes/htmlRoutes.js")
+
 
 const app = express();
 const PORT = process.env.PORT || 8000;
 
+app.use(express.json())
+app.use(express.urlencoded({extended: true}))
+app.use("/api", apiRoutes)
+app.use("/", htmlRoutes)
 app.use(express.static('public'))
 
 
