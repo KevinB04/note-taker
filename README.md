@@ -13,7 +13,7 @@
   This project gives the user the ability to write and save notes. This will be a great way for you to organize your thoughts and stay caught up with upcoming tasks!
 
   ## Installation
-  You are welcome to clone this repository. Run `git clone git@github.com:KevinB04/note-taker.git`
+  You are welcome to clone this repository. Run `git clone git@github.com:KevinB04/note-taker.git` in your terminal in order to access this project.
 
   ## Usage
   
